@@ -13,7 +13,8 @@
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/kevs-tieredz-modifiers",
-		"sources": "https://github.com/kyber-6/kevstieredzmodifiers-mod"
+		"sources": "https://github.com/kyber-6/kevstieredzmodifiers-mod",
+		"issues": "https://github.com/kyber-6/kevstieredzmodifiers-mod/issues"
 	},
 	"license": "GNU GPLv3",
 	"icon": "assets/kevstieredzmodifiers/icon.png",
