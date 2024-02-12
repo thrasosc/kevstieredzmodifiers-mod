@@ -15,6 +15,7 @@ public class KevsTieredZModifiers implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Hello from " + MOD_ID + "!");
+        LOGGER.info("Loading tiered data pack for " + MOD_ID);
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
                 new ResourceLocation(MOD_ID, "tieredcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
         )));
