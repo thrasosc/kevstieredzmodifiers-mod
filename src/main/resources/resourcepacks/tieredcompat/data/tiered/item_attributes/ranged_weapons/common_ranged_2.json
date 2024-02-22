@@ -6,6 +6,9 @@
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
     "weight": 55,
@@ -26,7 +29,7 @@
             ]
         },
         {
-            "type": "tiered:generic.crit_chance",
+            "type": "obscure_api:critical_hit",
             "modifier": {
                 "name": "tiered:common_ranged_2",
                 "operation": "MULTIPLY_TOTAL",

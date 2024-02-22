@@ -3,6 +3,9 @@
     "verifiers": [
         {
             "tag": "c:swords"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
     "weight": 7,
