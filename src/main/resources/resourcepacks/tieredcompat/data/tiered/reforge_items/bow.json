@@ -1,0 +1,9 @@
+{
+  "items": [
+    "minecraft:bow",
+	"archers:composite_longbow"
+  ],
+  "base": [
+    "minecraft:string"
+  ]
+}
