@@ -1,11 +1,11 @@
 {
-    "id": "tiered:common_melee_1",
+    "id": "tiered:common_wand_1",
     "verifiers": [
         {
             "tag": "wizards:wands"
         }
     ],
-    "weight": 65,
+    "weight": 55,
     "style": {
         "color": "gray"
     },
@@ -13,7 +13,7 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:common_melee_1",
+                "name": "tiered:common_wand_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.3
             },
@@ -24,7 +24,7 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:common_melee_1",
+                "name": "tiered:common_wand_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.15
             },
@@ -35,7 +35,7 @@
         {
             "type": "generic.luck",
             "modifier": {
-                "name": "tiered:common_melee_1",
+                "name": "tiered:common_wand_1",
                 "operation": "ADDITION",
                 "amount": -2
             },

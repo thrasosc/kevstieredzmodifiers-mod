@@ -1,0 +1,56 @@
+{
+    "id": "tiered:guardian_1",
+    "verifiers": [
+        {
+            "tag": "c:chestplates"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "obscure_api:healing_power",
+            "modifier": {
+                "name": "tiered:guardian_1",
+                "operation": "ADDITION",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "reabsorption:reabsorption",
+            "modifier": {
+                "name": "tiered:guardian_1",
+                "operation": "ADDITION",
+                "amount": 10
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+		{
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:guardian_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.5
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

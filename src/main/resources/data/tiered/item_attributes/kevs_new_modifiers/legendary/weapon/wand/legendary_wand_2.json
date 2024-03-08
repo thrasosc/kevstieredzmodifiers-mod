@@ -1,11 +1,11 @@
 {
-    "id": "tiered:legendary_melee_2",
+    "id": "tiered:legendary_wand_2",
     "verifiers": [
         {
             "tag": "wizards:wands"
         }
     ],
-    "weight": 5,
+    "weight": 7,
     "style": {
         "color": "gold"
     },
@@ -13,9 +13,9 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_wand_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -24,7 +24,7 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_wand_2",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.15
             },
@@ -33,9 +33,9 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "spell_power:haste",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_wand_2",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.3
             },

@@ -1,0 +1,65 @@
+{
+    "id": "tiered:rare_armor_6",
+    "verifiers": [
+        {
+            "tag": "c:helmets"
+        },
+        {
+            "tag": "c:chestplates"
+        },
+        {
+            "tag": "c:leggings"
+        },
+        {
+            "tag": "c:boots"
+        }
+    ],
+    "weight": 35,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "puffish_skills:player.melee_damage",
+            "modifier": {
+                "name": "tiered:rare_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.01
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:rare_armor_6",
+                "operation": "ADDITION",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "obscure_api:critical_hit",
+            "modifier": {
+                "name": "tiered:rare_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.01
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

@@ -3,19 +3,22 @@
     "verifiers": [
         {
             "tag": "c:swords"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
-    "weight": 30,
+    "weight": 35,
     "style": {
         "color": "blue"
     },
     "attributes": [
         {
-            "type": "tiered:generic.crit_chance",
+            "type": "obscure_api:critical_hit",
             "modifier": {
                 "name": "tiered:rare_melee_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND"

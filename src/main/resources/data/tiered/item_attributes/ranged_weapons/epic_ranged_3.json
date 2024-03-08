@@ -6,19 +6,22 @@
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
-    "weight": 12,
+    "weight": 16,
     "style": {
         "color": "dark_purple"
     },
     "attributes": [
         {
-            "type": "tiered:generic.crit_chance",
+            "type": "obscure_api:critical_hit",
             "modifier": {
                 "name": "tiered:epic_ranged_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.1
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -26,7 +29,7 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "obscure_api:critical_damage",
             "modifier": {
                 "name": "tiered:epic_ranged_3",
                 "operation": "MULTIPLY_TOTAL",

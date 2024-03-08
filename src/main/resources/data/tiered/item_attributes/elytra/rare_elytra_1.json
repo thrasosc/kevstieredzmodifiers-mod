@@ -1,11 +1,14 @@
 {
     "id": "tiered:rare_elytra_1",
     "verifiers": [
-        {
+		{
             "id": "minecraft:elytra"
+        },
+		{
+            "id": "mythicmetals:celestium_elytra"
         }
     ],
-    "weight": 30,
+    "weight": 35,
     "style": {
         "color": "blue"
     },

@@ -13,9 +13,9 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:legendary_staves_2",
+                "name": "tiered:legendary_staves_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.125
+                "amount": 0.375
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -26,7 +26,7 @@
             "modifier": {
                 "name": "tiered:legendary_staves_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,7 +35,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:legendary_staves_2",
+                "name": "tiered:legendary_staves_3",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.3
             },

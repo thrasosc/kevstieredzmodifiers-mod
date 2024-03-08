@@ -1,0 +1,51 @@
+{
+    "id": "tiered:legendary_melee_8",
+    "verifiers": [
+        {
+            "tag": "c:swords"
+        },
+		{
+            "tag": "c:tridents"
+        }
+    ],
+    "weight": 7,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:legendary_melee_8",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:legendary_melee_8",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:parry",
+            "modifier": {
+                "name": "tiered:legendary_melee_8",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+				"OFFHAND"
+            ]
+        }
+    ]
+}

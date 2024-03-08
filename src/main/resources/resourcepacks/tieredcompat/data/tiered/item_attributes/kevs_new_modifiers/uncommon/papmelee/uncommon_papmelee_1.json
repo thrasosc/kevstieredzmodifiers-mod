@@ -1,0 +1,53 @@
+{
+    "id": "tiered:uncommon_papmelee_1",
+    "verifiers": [
+        {
+            "tag": "paladins:claymores"
+        },
+		{
+            "tag": "paladins:great_hammers"
+        },
+		{
+            "tag": "paladins:maces"
+        }
+    ],
+    "weight": 45,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:uncommon_papmelee_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "spell_power:healing",
+            "modifier": {
+                "name": "tiered:uncommon_papmelee_1",
+                "operation": "ADDITION",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:uncommon_papmelee_1",
+                "operation": "ADDITION",
+                "amount": -1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

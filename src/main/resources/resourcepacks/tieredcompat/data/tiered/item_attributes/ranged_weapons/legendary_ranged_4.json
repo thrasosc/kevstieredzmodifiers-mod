@@ -6,6 +6,9 @@
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
     "weight": 7,
@@ -26,11 +29,11 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "obscure_api:critical_damage",
             "modifier": {
                 "name": "tiered:legendary_ranged_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND",

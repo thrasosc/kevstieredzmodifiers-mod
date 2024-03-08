@@ -13,7 +13,7 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:common_staves_2",
+                "name": "tiered:common_staves_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.3
             },
@@ -35,7 +35,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:common_staves_2",
+                "name": "tiered:common_staves_3",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.3
             },

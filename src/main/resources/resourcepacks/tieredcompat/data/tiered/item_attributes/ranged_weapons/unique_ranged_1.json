@@ -6,6 +6,9 @@
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
     "weight": 5,
@@ -26,11 +29,11 @@
             ]
         },
         {
-            "type": "tiered:generic.crit_chance",
+            "type": "obscure_api:critical_hit",
             "modifier": {
                 "name": "tiered:unique_ranged_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -38,11 +41,11 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "obscure_api:critical_damage",
             "modifier": {
                 "name": "tiered:unique_ranged_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.5
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND",

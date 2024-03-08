@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:unique_tool_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "MAINHAND"

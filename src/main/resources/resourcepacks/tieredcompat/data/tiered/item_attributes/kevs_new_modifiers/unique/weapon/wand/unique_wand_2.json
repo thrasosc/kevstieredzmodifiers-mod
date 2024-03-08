@@ -33,7 +33,7 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "spell_power:haste",
             "modifier": {
                 "name": "tiered:unique_wand_2",
                 "operation": "MULTIPLY_TOTAL",

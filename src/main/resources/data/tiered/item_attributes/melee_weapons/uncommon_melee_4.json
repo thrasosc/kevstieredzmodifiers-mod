@@ -3,9 +3,12 @@
     "verifiers": [
         {
             "tag": "c:swords"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
-    "weight": 60,
+    "weight": 45,
     "style": {
         "color": "dark_green"
     },

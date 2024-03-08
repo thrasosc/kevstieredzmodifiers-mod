@@ -1,11 +1,14 @@
 {
     "id": "tiered:unique_elytra_1",
     "verifiers": [
-        {
+		{
             "id": "minecraft:elytra"
+        },
+		{
+            "id": "mythicmetals:celestium_elytra"
         }
     ],
-    "weight": 3,
+    "weight": 5,
     "style": {
         "color": "light_purple"
     },
@@ -22,11 +25,11 @@
             ]
         },
         {
-            "type": "generic.movement_speed",
+            "type": "mythicmetals:elytra_rocket_speed",
             "modifier": {
                 "name": "tiered:unique_elytra_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.1
+                "amount": 0.25
             },
             "optional_equipment_slots": [
                 "CHEST"

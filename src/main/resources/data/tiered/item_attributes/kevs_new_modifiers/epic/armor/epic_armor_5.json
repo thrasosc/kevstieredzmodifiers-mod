@@ -1,0 +1,65 @@
+{
+    "id": "tiered:epic_armor_5",
+    "verifiers": [
+        {
+            "tag": "c:helmets"
+        },
+        {
+            "tag": "c:chestplates"
+        },
+        {
+            "tag": "c:leggings"
+        },
+        {
+            "tag": "c:boots"
+        }
+    ],
+    "weight": 16,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "puffish_skills:player.melee_damage",
+            "modifier": {
+                "name": "tiered:epic_armor_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.02
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "obscure_api:critical_hit",
+            "modifier": {
+                "name": "tiered:epic_armor_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.02
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:epic_armor_5",
+                "operation": "ADDITION",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

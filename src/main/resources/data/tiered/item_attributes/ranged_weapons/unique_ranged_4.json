@@ -1,14 +1,17 @@
 {
-    "id": "tiered:unique_ranged_4",
+    "id": "tiered:unique_gem_4",
     "verifiers": [
         {
             "tag": "c:bows"
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
-    "weight": 3,
+    "weight": 5,
     "style": {
         "color": "light_purple"
     },
@@ -16,7 +19,7 @@
         {
             "type": "puffish_skills:player.ranged_damage",
             "modifier": {
-                "name": "tiered:unique_ranged_4",
+                "name": "tiered:unique_gem_4",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.5
             },
@@ -26,11 +29,11 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "obscure_api:critical_damage",
             "modifier": {
-                "name": "tiered:unique_ranged_4",
+                "name": "tiered:unique_gem_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.5
+                "amount": 0.35
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -38,11 +41,11 @@
             ]
         },
         {
-            "type": "generic.movement_speed",
+            "type": "obscure_api:critical_hit",
             "modifier": {
-                "name": "tiered:unique_ranged_4",
+                "name": "tiered:unique_gem_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND",

@@ -13,7 +13,7 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:common_staves_3",
+                "name": "tiered:common_staves_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.15
             },
@@ -24,7 +24,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:common_staves_3",
+                "name": "tiered:common_staves_2",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.3
             },

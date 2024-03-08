@@ -1,0 +1,65 @@
+{
+    "id": "tiered:legendary_armor_6",
+    "verifiers": [
+        {
+            "tag": "c:helmets"
+        },
+        {
+            "tag": "c:chestplates"
+        },
+        {
+            "tag": "c:leggings"
+        },
+        {
+            "tag": "c:boots"
+        }
+    ],
+    "weight": 7,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADDITION",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "puffish_skills:player.melee_damage",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.03
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "obscure_api:critical_hit",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.03
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

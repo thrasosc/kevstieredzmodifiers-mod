@@ -1,0 +1,56 @@
+{
+    "id": "tiered:aquatic_1",
+    "verifiers": [
+        {
+            "tag": "c:boots"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "porting_lib:swim_speed",
+            "modifier": {
+                "name": "tiered:aquatic_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "mythicmetals:fire_vulnerability",
+            "modifier": {
+                "name": "tiered:aquatic_1",
+                "operation": "ADDITION",
+                "amount": 5
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+		{
+            "type": "spell_power:frost",
+            "modifier": {
+                "name": "tiered:aquatic_1",
+                "operation": "ADDITION",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

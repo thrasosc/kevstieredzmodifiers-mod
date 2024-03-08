@@ -1,0 +1,101 @@
+{
+    "id": "tiered:epic_pap_1",
+    "verifiers": [
+        {
+            "id": "paladins:paladin_armor_legs"
+        },
+		{
+            "id": "paladins:paladin_armor_feet"
+        },
+		{
+            "id": "paladins:paladin_armor_head"
+        },
+		{
+            "id": "paladins:paladin_armor_chest"
+        },
+		{
+            "id": "paladins:crusader_armor_legs"
+        },
+		{
+            "id": "paladins:crusader_armor_feet"
+        },
+		{
+            "id": "paladins:crusader_armor_head"
+        },
+		{
+            "id": "paladins:crusader_armor_chest"
+        },
+		{
+            "id": "paladins:priest_armor_legs"
+        },
+		{
+            "id": "paladins:priest_armor_feet"
+        },
+		{
+            "id": "paladins:priest_armor_head"
+        },
+		{
+            "id": "paladins:priest_armor_chest"
+        },
+		{
+            "id": "paladins:prior_armor_legs"
+        },
+		{
+            "id": "paladins:prior_armor_feet"
+        },
+		{
+            "id": "paladins:prior_armor_head"
+        },
+		{
+            "id": "paladins:prior_armor_chest"
+        }
+    ],
+    "weight": 16,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "obscure_api:healing_power",
+            "modifier": {
+                "name": "tiered:epic_pap_1",
+                "operation": "ADDITION",
+                "amount": 0.375
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_pap_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:epic_pap_1",
+                "operation": "ADDITION",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

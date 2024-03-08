@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:unique_wand_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.5
+                "amount": 0.7
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -26,7 +26,7 @@
             "modifier": {
                 "name": "tiered:unique_wand_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.1
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND"

@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:epic_staves_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -24,9 +24,9 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:epic_staves_1",
+                "name": "tiered:epic_staves_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.075
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,7 +35,7 @@
         {
             "type": "generic.luck",
             "modifier": {
-                "name": "tiered:epic_staves_1",
+                "name": "tiered:epic_staves_3",
                 "operation": "ADDITION",
                 "amount": 1
             },

@@ -1,0 +1,51 @@
+{
+    "id": "tiered:rare_melee_10",
+    "verifiers": [
+        {
+            "tag": "c:swords"
+        },
+		{
+            "tag": "c:tridents"
+        }
+    ],
+    "weight": 35,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:rare_melee_10",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_melee_10",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:parry",
+            "modifier": {
+                "name": "tiered:rare_melee_10",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+				"OFFHAND"
+            ]
+        }
+    ]
+}

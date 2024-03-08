@@ -1,0 +1,61 @@
+{
+    "id": "tiered:unique_melee_5",
+    "verifiers": [
+        {
+            "tag": "c:swords"
+        },
+		{
+            "tag": "c:tridents"
+        }
+    ],
+    "weight": 5,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:unique_melee_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:penetration",
+            "modifier": {
+                "name": "tiered:unique_melee_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:critical_damage",
+            "modifier": {
+                "name": "tiered:unique_melee_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "reach-entity-attributes:attack_range",
+            "modifier": {
+                "name": "tiered:unique_melee_5",
+                "operation": "ADDITION",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

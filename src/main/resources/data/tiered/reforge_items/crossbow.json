@@ -1,0 +1,10 @@
+{
+  "items": [
+    "minecraft:crossbow",
+	"archers:rapid_crossbow",
+	"archers:mechanical_shortbow"
+  ],
+  "base": [
+    "minecraft:iron_ingot"
+  ]
+}

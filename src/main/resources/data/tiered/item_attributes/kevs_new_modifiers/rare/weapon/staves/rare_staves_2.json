@@ -1,11 +1,11 @@
 {
-    "id": "tiered:rare_melee_2",
+    "id": "tiered:rare_staves_2",
     "verifiers": [
         {
             "tag": "wizards:staves"
         }
     ],
-    "weight": 30,
+    "weight": 35,
     "style": {
         "color": "blue"
     },
@@ -13,7 +13,7 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:rare_melee_2",
+                "name": "tiered:rare_staves_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.05
             },
@@ -24,7 +24,7 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:rare_melee_2",
+                "name": "tiered:rare_staves_2",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.05
             },
@@ -35,7 +35,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:rare_melee_2",
+                "name": "tiered:rare_staves_3",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.1
             },

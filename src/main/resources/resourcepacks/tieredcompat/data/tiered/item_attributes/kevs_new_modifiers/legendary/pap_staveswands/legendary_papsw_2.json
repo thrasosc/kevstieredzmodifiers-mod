@@ -1,0 +1,50 @@
+{
+    "id": "tiered:legendary_papsw_2",
+    "verifiers": [
+        {
+            "tag": "paladins:staves"
+        },
+		{
+            "tag": "paladins:wands"
+        }
+    ],
+    "weight": 7,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "spell_power:healing",
+            "modifier": {
+                "name": "tiered:legendary_papsw_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.125
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "spell_power:haste",
+            "modifier": {
+                "name": "tiered:legendary_papsw_2",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:legendary_papsw_3",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

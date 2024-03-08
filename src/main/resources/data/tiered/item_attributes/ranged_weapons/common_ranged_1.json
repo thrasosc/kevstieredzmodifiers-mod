@@ -6,9 +6,12 @@
         },
         {
             "tag": "c:crossbows"
+        },
+        {
+            "tag": "c:tridents"
         }
     ],
-    "weight": 65,
+    "weight": 55,
     "style": {
         "color": "gray"
     },
@@ -26,7 +29,7 @@
             ]
         },
         {
-            "type": "tiered:generic.crit_chance",
+            "type": "obscure_api:critical_hit",
             "modifier": {
                 "name": "tiered:common_ranged_1",
                 "operation": "MULTIPLY_TOTAL",
@@ -38,7 +41,7 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "obscure_api:critical_damage",
             "modifier": {
                 "name": "tiered:common_ranged_1",
                 "operation": "MULTIPLY_TOTAL",

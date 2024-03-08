@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "kevstieredzmodifiers",
-	"version": "${version}",
+	"version": "2.1.0",
 	"name": "Kev's TieredZ Modifiers",
 	"description": "Tons of new modifiers for you to discover!",
 	"authors": [
@@ -32,7 +32,11 @@
 		"wizards": "*",
 		"reabsorption": "*",
 		"puffish_skills": "*",
-		"tiered": "*"
+		"tiered": "*",
+		"archers": "*",
+		"paladins": "*",
+		"obscure_api": "*",
+		"mythicmetals": "*"
 	},
 	"suggests": {
 		"simplyskills": "*",

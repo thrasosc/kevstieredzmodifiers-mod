@@ -1,11 +1,11 @@
 {
-    "id": "tiered:unique_melee_2",
+    "id": "tiered:unique_wand_2",
     "verifiers": [
         {
             "tag": "wizards:wands"
         }
     ],
-    "weight": 3,
+    "weight": 5,
     "style": {
         "color": "light_purple"
     },
@@ -13,9 +13,9 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:unique_melee_2",
+                "name": "tiered:unique_wand_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -24,18 +24,18 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:unique_melee_2",
+                "name": "tiered:unique_wand_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "spell_power:haste",
             "modifier": {
-                "name": "tiered:unique_melee_2",
+                "name": "tiered:unique_wand_2",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.5
             },

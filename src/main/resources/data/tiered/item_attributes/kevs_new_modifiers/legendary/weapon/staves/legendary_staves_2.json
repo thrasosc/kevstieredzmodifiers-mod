@@ -1,11 +1,11 @@
 {
-    "id": "tiered:legendary_melee_2",
+    "id": "tiered:legendary_staves_2",
     "verifiers": [
         {
             "tag": "wizards:staves"
         }
     ],
-    "weight": 5,
+    "weight": 7,
     "style": {
         "color": "gold"
     },
@@ -13,9 +13,9 @@
         {
             "type": "spell_power:critical_damage",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_staves_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.375
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -24,9 +24,9 @@
         {
             "type": "spell_power:critical_chance",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_staves_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.15
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,7 +35,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:legendary_melee_2",
+                "name": "tiered:legendary_staves_3",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.3
             },

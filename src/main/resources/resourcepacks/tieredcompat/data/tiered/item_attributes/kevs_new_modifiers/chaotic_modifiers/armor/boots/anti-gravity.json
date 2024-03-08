@@ -1,0 +1,70 @@
+{
+    "id": "tiered:anti-gravity_1",
+    "verifiers": [
+        {
+            "tag": "c:boots"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "porting_lib:entity_gravity",
+            "modifier": {
+                "name": "tiered:anti-gravity_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": -0.65
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "porting_lib:step_height_addition",
+            "modifier": {
+                "name": "tiered:anti-gravity_1",
+                "operation": "ADDITION",
+                "amount": 1
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+		{
+            "type": "minecraft:generic.movement_speed",
+            "modifier": {
+                "name": "tiered:anti-gravity_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+		{
+            "type": "puffish_skills:player.jump",
+            "modifier": {
+                "name": "tiered:anti-gravity_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

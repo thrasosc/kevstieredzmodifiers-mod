@@ -1,0 +1,50 @@
+{
+    "id": "tiered:epic_melee_5",
+    "verifiers": [
+        {
+            "tag": "c:swords"
+        },
+		{
+            "tag": "c:tridents"
+        }
+    ],
+    "weight": 16,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:epic_melee_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:penetration",
+            "modifier": {
+                "name": "tiered:epic_melee_5",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.075
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "obscure_api:critical_damage",
+            "modifier": {
+                "name": "tiered:epic_melee_5",
+                  "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
