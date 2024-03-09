@@ -41,5 +41,8 @@
 	"suggests": {
 		"simplyskills": "*",
 		"spellbladenext": "*"
+	},
+	"breaks": {
+		"kevstierifymodifiers": "*"
 	}
 }
