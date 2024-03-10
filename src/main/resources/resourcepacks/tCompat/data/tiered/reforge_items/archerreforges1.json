@@ -1,0 +1,11 @@
+{
+  "items": [
+    "archers:netherite_shortbow",
+	"archers:netherite_longbow",
+	"archers:netherite_rapid_shortbow",
+	"archers:netherite_heavy_shortbow"
+  ],
+  "base": [
+    "minecraft:netherite_ingot"
+  ]
+}
