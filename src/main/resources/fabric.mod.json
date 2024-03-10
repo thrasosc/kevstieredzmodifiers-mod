@@ -32,7 +32,8 @@
 		"puffish_skills": "*",
 		"tiered": "*",
 		"obscure_api": "*",
-		"kevslibrary": "*"
+		"kevslibrary": "*",
+		"spell_power": "*"
 	},
 	"suggests": {
 		"simplyskills": "*",
