@@ -36,8 +36,6 @@
 		"spell_power": "*"
 	},
 	"suggests": {
-		"simplyskills": "*",
-		"spellbladenext": "*",
 		"mythicmetals": "*",
 		"paladins": "*",
 		"archers": "*",
