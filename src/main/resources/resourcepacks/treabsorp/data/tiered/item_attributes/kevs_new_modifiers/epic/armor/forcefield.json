@@ -34,7 +34,7 @@
             ]
         },
         {
-            "type": "reabsorption:reabsorption",
+            "type": "extraspellattributes:reabsorption",
             "modifier": {
                 "name": "tiered:epic_armor_4",
                 "operation": "ADDITION",

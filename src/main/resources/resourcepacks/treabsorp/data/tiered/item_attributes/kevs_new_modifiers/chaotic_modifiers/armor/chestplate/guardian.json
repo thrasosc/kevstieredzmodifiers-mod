@@ -25,7 +25,7 @@
             ]
         },
         {
-            "type": "reabsorption:reabsorption",
+            "type": "extraspellattributes:reabsorption",
             "modifier": {
                 "name": "tiered:guardian_1",
                 "operation": "ADDITION",
