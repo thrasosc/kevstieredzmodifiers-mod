@@ -29,7 +29,7 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"puffish_skills": "*",
+		"puffish_attributes": "*",
 		"tiered": "*",
 		"obscure_api": "*",
 		"kevslibrary": ">=1.0.1",

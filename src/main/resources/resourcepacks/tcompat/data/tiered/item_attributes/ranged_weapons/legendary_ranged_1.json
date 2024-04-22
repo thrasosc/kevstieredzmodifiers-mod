@@ -17,7 +17,7 @@
     },
     "attributes": [
         {
-            "type": "puffish_skills:player.ranged_damage",
+            "type": "puffish_attributes:player.ranged_damage",
             "modifier": {
                 "name": "tiered:legendary_ranged_1",
                 "operation": "MULTIPLY_TOTAL",

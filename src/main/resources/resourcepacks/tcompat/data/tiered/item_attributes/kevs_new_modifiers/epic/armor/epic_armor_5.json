@@ -20,7 +20,7 @@
     },
     "attributes": [
         {
-            "type": "puffish_skills:player.melee_damage",
+            "type": "puffish_attributes:player.melee_damage",
             "modifier": {
                 "name": "tiered:epic_armor_5",
                 "operation": "MULTIPLY_TOTAL",

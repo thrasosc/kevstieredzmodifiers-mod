@@ -53,7 +53,7 @@
             ]
         },
 		{
-            "type": "puffish_skills:player.jump",
+            "type": "puffish_attributes:player.jump",
             "modifier": {
                 "name": "tiered:anti-gravity_1",
                 "operation": "MULTIPLY_TOTAL",

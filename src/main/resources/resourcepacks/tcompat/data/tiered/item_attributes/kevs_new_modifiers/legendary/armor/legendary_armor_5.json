@@ -48,7 +48,7 @@
             ]
         },
         {
-            "type": "puffish_skills:player.melee_damage",
+            "type": "puffish_attributes:player.melee_damage",
             "modifier": {
                 "name": "tiered:legendary_armor_5",
                 "operation": "MULTIPLY_TOTAL",

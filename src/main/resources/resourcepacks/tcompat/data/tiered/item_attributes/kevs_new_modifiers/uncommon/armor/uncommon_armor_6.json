@@ -34,7 +34,7 @@
             ]
         },
         {
-            "type": "puffish_skills:player.melee_damage",
+            "type": "puffish_attributes:player.melee_damage",
             "modifier": {
                 "name": "tiered:uncommon_armor_6",
                 "operation": "MULTIPLY_TOTAL",
